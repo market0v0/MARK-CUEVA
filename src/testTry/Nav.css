@@ -1,0 +1,84 @@
+.dropdown-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+  }
+  
+ .nav-toggle {
+    position: fixed;
+    right: 5%;
+    width: 10vw;
+    height: auto;
+    
+  }
+  
+  .dropdown-menu {
+    position: fixed;
+    top: 0vh;
+    right: 0;
+    width: 45vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+    background: rgba(223, 223, 223, 0.99);
+    padding: 3vw;
+    transform: translate(10%, -5%);
+    list-style: none;
+  }
+  
+  .nav-item {
+  
+    margin-bottom: 1vh;
+  }
+  
+  .nav-link {
+    line-height: 1.5; 
+    
+    padding: 3vw;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(51, 50, 50, 0.687);
+    font-size: 5vw;
+    font-family: Lohit Tamil, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+
+ 
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #666;
+  }
+
+  .closeIcon{
+    position: fixed;
+    left: -20%;
+    width: 10vw;
+    top: 3%;
+  
+    background: #7e7e7e48;
+  }
+  .modeIcon{
+    padding: 5%;
+    width: 10vw;
+  }
+  .mode{
+    border-bottom: 1px solid rgb(248, 248, 248);
+    position: fixed;
+    bottom:  6%;
+    display: flex;
+    width: 70%;
+    align-items:center;
+    border-top: 1px solid rgba(124, 123, 123, 0.787);
+    
+  }
+  .logo {
+    border-bottom: 1px solid rgb(248, 248, 248);
+    overflow: hidden;
+    width: 80%;
+    top: 10%;
+    right: 3%;
+    height: auto;
+  }

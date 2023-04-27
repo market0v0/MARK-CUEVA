@@ -1,0 +1,181 @@
+
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center; 
+  overflow: hidden;
+  top:-1vh;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+}
+
+
+.container .picture {
+  width: 49vw;
+  height: auto;
+  padding-left: 8%;
+
+}
+
+.container .labels {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  line-height: 2.5; 
+}
+
+
+
+
+.container .labels .button {
+
+
+  padding: 3%;
+  width: 70.06%;
+  height: auto;
+  cursor: pointer;
+  place-content: center;
+  align-items: center;
+  border-radius: 30vh;
+  font-size: 1.5vw;
+  border: .3vh solid black; /* Add this line */
+}
+
+
+.container .labels  .name {
+
+  width: 35.06vw;
+  font-size: 3.45vw;
+  line-height: 5.5vw;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    letter-spacing: 0.2vw;
+}
+.name:hover,
+.lname:hover {
+  transform: scale(1.2);
+  transform-origin: 50% 50%;
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+}
+
+.container .labels .student_label {
+  letter-spacing: .3vw;
+  padding: 10%;
+  left: 50%;
+  line-height: 5.5vw;
+  width: 35.06vw;
+  height: auto;
+  font-size: 2vh;
+  font-weight: 500;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+
+
+.container .labels .lname {
+  letter-spacing: .5vw;
+  line-height: 5.5vw;
+  color: #5CF57E;
+  font-size: 8.81vw;
+  font-weight: bolder;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+
+@media (max-width: 1200px){
+  .container {
+
+    width: 100%;
+    height: auto;
+
+  }
+  
+  .container .picture {
+    padding-top: 2%;
+    width: 60vw;
+    padding-left: .1vw;
+  
+  }
+  .container .labels .button {
+    border-radius: 30vh;
+    font-size: 2.5vw;
+    width: 100%;
+  
+  }
+  .container .labels {
+    line-height: 20.5vw;
+    padding-left: 6vw;
+    padding-bottom: 10%;
+  }
+  
+} 
+
+@media (max-width: 800px) {
+  .container {
+    padding-top: 10%;;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+
+  }
+  
+  
+  .container .picture {
+    padding-top: 1.6%;
+    width: 90vw;
+    padding-left: .1vw;
+  
+  }
+  
+  .container .labels {
+    line-height: 20.5vw;
+    padding-left: 4vw;
+    width: 90vw;
+    padding-bottom: 10%;
+  }
+  
+  
+  
+  
+  .container .labels .button {
+    border-radius: 30vh;
+    font-size: 3.5vw;
+  
+  }
+  
+  
+  .container .labels  .name {
+    width: 70.06vw;
+    padding-bottom: 8%;
+    font-size: 6.45vw;
+
+  }
+
+  
+  .container .labels .student_label {
+    letter-spacing: .3vw;
+    line-height: .5vw;
+    width: 65.06vw;
+    font-size: 2vw;
+
+
+  }
+  
+  
+  .container .labels .lname {
+    font-size: 17.81vw;
+  
+  }
+}
+
+

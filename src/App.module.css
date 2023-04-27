@@ -1,0 +1,35 @@
+.dark {
+  color: white;
+  font-family: sans-serif;
+  background: black; 
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.light {
+  color: black;
+  font-family: sans-serif;
+  background: #F1E0E0; 
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.ButtonIcon {
+  position: fixed;
+  left: 93vw;
+  top: 2%;
+  cursor: pointer;
+  border: none; 
+}
+@media (max-width: 800px) {
+  .hamburger {
+    position: fixed;
+    cursor: pointer;
+    left: 50vw;
+    top: 2%;
+  
+  }
+}

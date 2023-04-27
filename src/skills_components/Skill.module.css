@@ -1,0 +1,194 @@
+.frame {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  top:-1vh;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  background: rgba(70, 68, 68, 0.3);
+
+}
+
+  
+.frame .TextSide {
+  position: relative;
+  display: inline;
+  width: 50%;
+  height: auto;
+  left: 1.95vw;
+  padding: 2vw;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    
+  }
+  .sideText {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .rectangleBack {
+    position: absolute;
+    top: 1.5vw;
+    left: 3vw;
+    width: 83vw;
+    overflow: visible;
+  }
+
+
+.textBlock {
+    position: relative;
+    font-size: 5vw;
+    display: inline;
+    font-weight: bold;
+
+  }
+
+  .skillImg{
+    width: 16vw;
+    height: auto;
+    object-fit: cover;
+    padding: 1%;
+    opacity: 10%;
+    filter: drop-shadow(1vh .6vw 1vw rgba(2, 2, 2, 0.53));
+  }
+
+ .enlarged {
+  
+    transform: scale(115%);
+    opacity: 100%;
+    filter: drop-shadow(2vh 1.5vw 1vw rgba(41, 41, 41, 0.775));
+  }
+
+
+  .skillScroll {
+    width: 30%;
+    height: 65vh;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: 10vw;
+    -ms-overflow-style: none;
+    align-content: center;
+  }
+  .skillScroll::-webkit-scrollbar {
+    width: 36vw;
+    height: .6vh;
+    opacity: 10%;
+  }
+  
+
+  .content {
+    padding: 2%;
+  display: flex;
+  width: 100vw;
+  height: 55vh;
+  opacity: 100%;
+}
+
+.skillScroll .leftArrow {
+    position: absolute;
+    left:-2vw;
+    top:50%;
+    height: auto;
+    display: flex;
+    font-size: 2vw;
+    cursor: pointer;
+    opacity: 20%;
+  }
+  .skillScroll .rightArrow {
+    position: absolute;
+    top:50%;
+    right:78vw;
+    width: 10;
+    height: auto;
+    display: flex;
+    font-size: 2vw;
+    cursor: pointer;
+    opacity: 20%;
+  }
+  
+
+  
+  
+  .frame .TextSide .label {
+
+    padding: 3%;
+    padding-top: 4%; 
+    font-size: 1.1vw;
+    height: auto;
+    width: 45%;
+    padding-left: 5.5vw;
+    line-height: 3.5vw;
+    font-weight:normal;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+
+ 
+
+  .languageName {
+ 
+    font-weight: bold;
+    font-size: 3vw;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+
+  .framework {
+   
+    font-size: 1vw; 
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+
+  .description{
+ 
+    font-size: 1vw;
+    padding-bottom: 2%;
+    line-height: 1.8vw;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+
+
+
+  .sideSkill {
+    position: absolute;
+    top: 30%;
+    left: 65%;
+  }
+
+  .ButtonIcon {
+    position: fixed;
+    left: 20vw;
+    top: 10%;
+    cursor: pointer;
+    opacity: 0.9;
+    border: none; 
+    overflow: hidden;
+    width: 3vw; /* adjust the size as needed */
+    height: 3vw; /* adjust the size as needed */
+    border-radius: 50vw;
+    background: radial-gradient(50% 50% at 50% 50%, #BBEDA4 0%, rgba(104, 213, 52, 0) 100%);
+  }
+  @media (max-height: 500px) {
+    .frame {
+      
+      width: 100%;
+      height: 100vh;
+  
+    }
+  }
+  @media (max-width: 1200px){
+    .frame {
+      
+      width: 100%;
+      height: 100vh;
+  
+    }
+  }
